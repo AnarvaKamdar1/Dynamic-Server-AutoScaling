@@ -1,0 +1,900 @@
+{
+  "experiment": {
+    "horizon": 250.0,
+    "service_rate": 5.0,
+    "repetitions": 100,
+    "seed": 42,
+    "sla_wait_threshold": 1.0,
+    "workload": [
+      [
+        0,
+        50,
+        2.0
+      ],
+      [
+        50,
+        100,
+        8.0
+      ],
+      [
+        100,
+        150,
+        18.0
+      ],
+      [
+        150,
+        200,
+        5.0
+      ],
+      [
+        200,
+        250,
+        2.0
+      ]
+    ],
+    "control_interval": 10.0,
+    "dynamic_policy": {
+      "initial_servers": 2,
+      "min_servers": 1,
+      "max_servers": 10,
+      "low_utilization": 0.3,
+      "high_utilization": 0.8,
+      "queue_high": 20.0,
+      "queue_low": 0.0,
+      "cooldown": 20.0
+    }
+  },
+  "results": {
+    "static_c2": {
+      "label": "Static c=2",
+      "average": {
+        "avg_waiting_time": 14.378929678510707,
+        "avg_system_time": 14.578907120623796,
+        "avg_queue_length": 100.31130434600746,
+        "avg_utilization": 0.6966535009559154,
+        "sla_violations": 1201.79,
+        "sla_violation_rate": 0.6898486743799928,
+        "avg_active_servers": 2.0,
+        "server_hours": 500.0,
+        "scale_up_events": 0.0,
+        "scale_down_events": 0.0
+      },
+      "stddev": {
+        "avg_waiting_time": 1.8983498266467296,
+        "avg_system_time": 1.9012084498977289,
+        "avg_queue_length": 14.583762953512501,
+        "avg_utilization": 0.024879475947556767,
+        "sla_violations": 64.84111038499877,
+        "sla_violation_rate": 0.026599287042966973,
+        "avg_active_servers": 0.0,
+        "server_hours": 0.0,
+        "scale_up_events": 0.0,
+        "scale_down_events": 0.0
+      },
+      "time_series": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "time": 10.0,
+          "lambda": 2.0,
+          "utilization": 0.19984697894351672,
+          "avg_queue_length": 0.015887700322082397,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.0067033135759665095
+        },
+        {
+          "start": 10.0,
+          "end": 20.0,
+          "time": 20.0,
+          "lambda": 2.0,
+          "utilization": 0.2011928422538066,
+          "avg_queue_length": 0.01563701155583884,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.007605223290105507
+        },
+        {
+          "start": 20.0,
+          "end": 30.0,
+          "time": 30.0,
+          "lambda": 2.0,
+          "utilization": 0.18926741880291575,
+          "avg_queue_length": 0.015150174182994207,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.007321292668822399
+        },
+        {
+          "start": 30.0,
+          "end": 40.0,
+          "time": 40.0,
+          "lambda": 2.0,
+          "utilization": 0.20456973140708057,
+          "avg_queue_length": 0.01911369576719157,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.007817543918929954
+        },
+        {
+          "start": 40.0,
+          "end": 50,
+          "time": 50,
+          "lambda": 2.0,
+          "utilization": 0.20014662440485975,
+          "avg_queue_length": 0.014701403065066471,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.006560730685687664
+        },
+        {
+          "start": 50,
+          "end": 60.0,
+          "time": 60.0,
+          "lambda": 8.0,
+          "utilization": 0.7553556174178974,
+          "avg_queue_length": 2.1742488180241684,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.25896863621893135
+        },
+        {
+          "start": 60.0,
+          "end": 70.0,
+          "time": 70.0,
+          "lambda": 8.0,
+          "utilization": 0.7960556140317502,
+          "avg_queue_length": 2.823379058077577,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.33643877799992966
+        },
+        {
+          "start": 70.0,
+          "end": 80.0,
+          "time": 80.0,
+          "lambda": 8.0,
+          "utilization": 0.8022741172046475,
+          "avg_queue_length": 2.722060783896202,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.33054618188102003
+        },
+        {
+          "start": 80.0,
+          "end": 90.0,
+          "time": 90.0,
+          "lambda": 8.0,
+          "utilization": 0.8062987493153422,
+          "avg_queue_length": 3.1174182142903755,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.37007121572094875
+        },
+        {
+          "start": 90.0,
+          "end": 100,
+          "time": 100,
+          "lambda": 8.0,
+          "utilization": 0.8075520296166863,
+          "avg_queue_length": 3.1114399338325143,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.3772003023986755
+        },
+        {
+          "start": 100,
+          "end": 110.0,
+          "time": 110.0,
+          "lambda": 18.0,
+          "utilization": 0.9956975567539753,
+          "avg_queue_length": 42.10875210568373,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 2.3262572628547153
+        },
+        {
+          "start": 110.0,
+          "end": 120.0,
+          "time": 120.0,
+          "lambda": 18.0,
+          "utilization": 1.0,
+          "avg_queue_length": 118.30973528905807,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 6.639686369835017
+        },
+        {
+          "start": 120.0,
+          "end": 130.0,
+          "time": 130.0,
+          "lambda": 18.0,
+          "utilization": 1.0,
+          "avg_queue_length": 197.81553851246207,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 10.946945044979925
+        },
+        {
+          "start": 130.0,
+          "end": 140.0,
+          "time": 140.0,
+          "lambda": 18.0,
+          "utilization": 1.0,
+          "avg_queue_length": 277.8388964840274,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 15.364871669016493
+        },
+        {
+          "start": 140.0,
+          "end": 150,
+          "time": 150,
+          "lambda": 18.0,
+          "utilization": 1.0,
+          "avg_queue_length": 357.22683644205966,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 19.763998913890145
+        },
+        {
+          "start": 150,
+          "end": 160.0,
+          "time": 160.0,
+          "lambda": 5.0,
+          "utilization": 1.0,
+          "avg_queue_length": 371.68027868767416,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 24.202199976631174
+        },
+        {
+          "start": 160.0,
+          "end": 170.0,
+          "time": 170.0,
+          "lambda": 5.0,
+          "utilization": 1.0,
+          "avg_queue_length": 321.80779961340073,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 28.662089635081312
+        },
+        {
+          "start": 170.0,
+          "end": 180.0,
+          "time": 180.0,
+          "lambda": 5.0,
+          "utilization": 1.0,
+          "avg_queue_length": 270.8410930561836,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 33.09056058054888
+        },
+        {
+          "start": 180.0,
+          "end": 190.0,
+          "time": 190.0,
+          "lambda": 5.0,
+          "utilization": 1.0,
+          "avg_queue_length": 221.2266831251258,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 36.97735440050182
+        },
+        {
+          "start": 190.0,
+          "end": 200,
+          "time": 200,
+          "lambda": 5.0,
+          "utilization": 1.0,
+          "avg_queue_length": 170.48561067347038,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 33.601854169114716
+        },
+        {
+          "start": 200,
+          "end": 210.0,
+          "time": 210.0,
+          "lambda": 2.0,
+          "utilization": 0.9838327164331656,
+          "avg_queue_length": 104.38981405445811,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 24.012490392418016
+        },
+        {
+          "start": 210.0,
+          "end": 220.0,
+          "time": 220.0,
+          "lambda": 2.0,
+          "utilization": 0.7458347114768195,
+          "avg_queue_length": 35.49163343715569,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 12.924059812945819
+        },
+        {
+          "start": 220.0,
+          "end": 230.0,
+          "time": 230.0,
+          "lambda": 2.0,
+          "utilization": 0.33375030816194545,
+          "avg_queue_length": 4.432466187633452,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 2.669224420725606
+        },
+        {
+          "start": 230.0,
+          "end": 240.0,
+          "time": 240.0,
+          "lambda": 2.0,
+          "utilization": 0.19982229221294426,
+          "avg_queue_length": 0.08259380522327067,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.09936768063353904
+        },
+        {
+          "start": 240.0,
+          "end": 250.0,
+          "time": 250.0,
+          "lambda": 2.0,
+          "utilization": 0.1948402154605318,
+          "avg_queue_length": 0.01584038355620527,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.007863588473807697
+        }
+      ],
+      "configuration": {
+        "label": "Static c=2",
+        "type": "static",
+        "servers": 2
+      }
+    },
+    "static_c6": {
+      "label": "Static c=6",
+      "average": {
+        "avg_waiting_time": 0.008736613859507376,
+        "avg_system_time": 0.20951920246410896,
+        "avg_queue_length": 0.06130092764135833,
+        "avg_utilization": 0.23419074851495172,
+        "sla_violations": 0.0,
+        "sla_violation_rate": 0.0,
+        "avg_active_servers": 6.0,
+        "server_hours": 1500.0,
+        "scale_up_events": 0.0,
+        "scale_down_events": 0.0
+      },
+      "stddev": {
+        "avg_waiting_time": 0.0034545743760873134,
+        "avg_system_time": 0.006564027804923397,
+        "avg_queue_length": 0.024703885705169258,
+        "avg_utilization": 0.008088430280738345,
+        "sla_violations": 0.0,
+        "sla_violation_rate": 0.0,
+        "avg_active_servers": 0.0,
+        "server_hours": 0.0,
+        "scale_up_events": 0.0,
+        "scale_down_events": 0.0
+      },
+      "time_series": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "time": 10.0,
+          "lambda": 2.0,
+          "utilization": 0.06683169111568815,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 10.0,
+          "end": 20.0,
+          "time": 20.0,
+          "lambda": 2.0,
+          "utilization": 0.06722432306337306,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 20.0,
+          "end": 30.0,
+          "time": 30.0,
+          "lambda": 2.0,
+          "utilization": 0.06377873692532578,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 30.0,
+          "end": 40.0,
+          "time": 40.0,
+          "lambda": 2.0,
+          "utilization": 0.06954010778912474,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 40.0,
+          "end": 50,
+          "time": 50,
+          "lambda": 2.0,
+          "utilization": 0.06733323985754484,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 50,
+          "end": 60.0,
+          "time": 60.0,
+          "lambda": 8.0,
+          "utilization": 0.2661435903201292,
+          "avg_queue_length": 0.002264921033791822,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.000257945161743455
+        },
+        {
+          "start": 60.0,
+          "end": 70.0,
+          "time": 70.0,
+          "lambda": 8.0,
+          "utilization": 0.27110392149085405,
+          "avg_queue_length": 0.0013781137769360398,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0001632506958356534
+        },
+        {
+          "start": 70.0,
+          "end": 80.0,
+          "time": 80.0,
+          "lambda": 8.0,
+          "utilization": 0.26890672146584527,
+          "avg_queue_length": 0.0012131254750895552,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0001394895504243222
+        },
+        {
+          "start": 80.0,
+          "end": 90.0,
+          "time": 90.0,
+          "lambda": 8.0,
+          "utilization": 0.27183985809041844,
+          "avg_queue_length": 0.0014467200675287444,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.00016855770881970305
+        },
+        {
+          "start": 90.0,
+          "end": 100,
+          "time": 100,
+          "lambda": 8.0,
+          "utilization": 0.2664890743762916,
+          "avg_queue_length": 0.0017666279349361246,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0002174273073248827
+        },
+        {
+          "start": 100,
+          "end": 110.0,
+          "time": 110.0,
+          "lambda": 18.0,
+          "utilization": 0.599677410785269,
+          "avg_queue_length": 0.33492063402657346,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.017994727715152047
+        },
+        {
+          "start": 110.0,
+          "end": 120.0,
+          "time": 120.0,
+          "lambda": 18.0,
+          "utilization": 0.6023757005699681,
+          "avg_queue_length": 0.29494650890128626,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.01590129018403127
+        },
+        {
+          "start": 120.0,
+          "end": 130.0,
+          "time": 130.0,
+          "lambda": 18.0,
+          "utilization": 0.5932736351301517,
+          "avg_queue_length": 0.2573494813419248,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.013911558100598494
+        },
+        {
+          "start": 130.0,
+          "end": 140.0,
+          "time": 140.0,
+          "lambda": 18.0,
+          "utilization": 0.6068253666980487,
+          "avg_queue_length": 0.35489390679385885,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.019162912958981978
+        },
+        {
+          "start": 140.0,
+          "end": 150,
+          "time": 150,
+          "lambda": 18.0,
+          "utilization": 0.5891701131567306,
+          "avg_queue_length": 0.2781235724804202,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.015262144907301543
+        },
+        {
+          "start": 150,
+          "end": 160.0,
+          "time": 160.0,
+          "lambda": 5.0,
+          "utilization": 0.1795732413396792,
+          "avg_queue_length": 0.004030704754468246,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.001614664742411665
+        },
+        {
+          "start": 160.0,
+          "end": 170.0,
+          "time": 170.0,
+          "lambda": 5.0,
+          "utilization": 0.16982438992447438,
+          "avg_queue_length": 2.7380898021334587e-05,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 4.3461742891007285e-06
+        },
+        {
+          "start": 170.0,
+          "end": 180.0,
+          "time": 180.0,
+          "lambda": 5.0,
+          "utilization": 0.16982496328624389,
+          "avg_queue_length": 0.0001013796217490892,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 1.823915982293324e-05
+        },
+        {
+          "start": 180.0,
+          "end": 190.0,
+          "time": 190.0,
+          "lambda": 5.0,
+          "utilization": 0.16789874084437792,
+          "avg_queue_length": 6.0113927373919294e-05,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 1.0169985473962407e-05
+        },
+        {
+          "start": 190.0,
+          "end": 200,
+          "time": 200,
+          "lambda": 5.0,
+          "utilization": 0.16829938246440881,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 200,
+          "end": 210.0,
+          "time": 210.0,
+          "lambda": 2.0,
+          "utilization": 0.07036698774975941,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 210.0,
+          "end": 220.0,
+          "time": 220.0,
+          "lambda": 2.0,
+          "utilization": 0.06876493090221808,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 220.0,
+          "end": 230.0,
+          "time": 230.0,
+          "lambda": 2.0,
+          "utilization": 0.06437426705820412,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 230.0,
+          "end": 240.0,
+          "time": 240.0,
+          "lambda": 2.0,
+          "utilization": 0.0603743514938374,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        },
+        {
+          "start": 240.0,
+          "end": 250.0,
+          "time": 250.0,
+          "lambda": 2.0,
+          "utilization": 0.06495396697582684,
+          "avg_queue_length": 0.0,
+          "avg_active_servers": 6.0,
+          "avg_waiting_time": 0.0
+        }
+      ],
+      "configuration": {
+        "label": "Static c=6",
+        "type": "static",
+        "servers": 6
+      }
+    },
+    "dynamic": {
+      "label": "Dynamic autoscaling",
+      "average": {
+        "avg_waiting_time": 0.8563581240969631,
+        "avg_system_time": 1.0561499640711354,
+        "avg_queue_length": 5.9484185656548165,
+        "avg_utilization": 0.48464537260575047,
+        "sla_violations": 446.47,
+        "sla_violation_rate": 0.25613784254960736,
+        "avg_active_servers": 2.8572,
+        "server_hours": 714.3,
+        "scale_up_events": 4.0,
+        "scale_down_events": 4.55
+      },
+      "stddev": {
+        "avg_waiting_time": 0.7373975901143932,
+        "avg_system_time": 0.7378526641576527,
+        "avg_queue_length": 5.0349639146739475,
+        "avg_utilization": 0.02421988659816153,
+        "sla_violations": 265.7816927138101,
+        "sla_violation_rate": 0.15246954973048155,
+        "avg_active_servers": 0.1971313462561641,
+        "server_hours": 49.282836564041034,
+        "scale_up_events": 0.40201512610368484,
+        "scale_down_events": 0.6092717958449424
+      },
+      "time_series": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "time": 10.0,
+          "lambda": 2.0,
+          "utilization": 0.19984697894351672,
+          "avg_queue_length": 0.015887700322082397,
+          "avg_active_servers": 2.0,
+          "avg_waiting_time": 0.0067033135759665095
+        },
+        {
+          "start": 10.0,
+          "end": 20.0,
+          "time": 20.0,
+          "lambda": 2.0,
+          "utilization": 0.2577961036918222,
+          "avg_queue_length": 0.07312974519904283,
+          "avg_active_servers": 1.65,
+          "avg_waiting_time": 0.03388358554244068
+        },
+        {
+          "start": 20.0,
+          "end": 30.0,
+          "time": 30.0,
+          "lambda": 2.0,
+          "utilization": 0.2894493055189245,
+          "avg_queue_length": 0.13411174867773393,
+          "avg_active_servers": 1.46,
+          "avg_waiting_time": 0.06428004229988449
+        },
+        {
+          "start": 30.0,
+          "end": 40.0,
+          "time": 40.0,
+          "lambda": 2.0,
+          "utilization": 0.35049493560617706,
+          "avg_queue_length": 0.19801734039477012,
+          "avg_active_servers": 1.27,
+          "avg_waiting_time": 0.09508328679368427
+        },
+        {
+          "start": 40.0,
+          "end": 50,
+          "time": 50,
+          "lambda": 2.0,
+          "utilization": 0.37325932400376877,
+          "avg_queue_length": 0.20624851926676083,
+          "avg_active_servers": 1.18,
+          "avg_waiting_time": 0.09337764875812495
+        },
+        {
+          "start": 50,
+          "end": 60.0,
+          "time": 60.0,
+          "lambda": 8.0,
+          "utilization": 0.9600270554239497,
+          "avg_queue_length": 15.193063122170422,
+          "avg_active_servers": 1.09,
+          "avg_waiting_time": 1.872272536205951
+        },
+        {
+          "start": 60.0,
+          "end": 70.0,
+          "time": 70.0,
+          "lambda": 8.0,
+          "utilization": 0.9522936284854324,
+          "avg_queue_length": 22.417555891394528,
+          "avg_active_servers": 1.93,
+          "avg_waiting_time": 2.7958129697204566
+        },
+        {
+          "start": 70.0,
+          "end": 80.0,
+          "time": 80.0,
+          "lambda": 8.0,
+          "utilization": 0.873791459733564,
+          "avg_queue_length": 13.164036963102014,
+          "avg_active_servers": 2.06,
+          "avg_waiting_time": 1.6318060735787532
+        },
+        {
+          "start": 80.0,
+          "end": 90.0,
+          "time": 90.0,
+          "lambda": 8.0,
+          "utilization": 0.6637145971193266,
+          "avg_queue_length": 4.650479957359274,
+          "avg_active_servers": 2.68,
+          "avg_waiting_time": 0.6301823915956184
+        },
+        {
+          "start": 90.0,
+          "end": 100,
+          "time": 100,
+          "lambda": 8.0,
+          "utilization": 0.5800965599290684,
+          "avg_queue_length": 1.2749977047889276,
+          "avg_active_servers": 2.87,
+          "avg_waiting_time": 0.1839585665750408
+        },
+        {
+          "start": 100,
+          "end": 110.0,
+          "time": 110.0,
+          "lambda": 18.0,
+          "utilization": 0.9748588132779875,
+          "avg_queue_length": 17.766582854381003,
+          "avg_active_servers": 2.94,
+          "avg_waiting_time": 0.9840699505915858
+        },
+        {
+          "start": 110.0,
+          "end": 120.0,
+          "time": 120.0,
+          "lambda": 18.0,
+          "utilization": 0.9561911335433689,
+          "avg_queue_length": 26.409462308384914,
+          "avg_active_servers": 3.87,
+          "avg_waiting_time": 1.4523502263350756
+        },
+        {
+          "start": 120.0,
+          "end": 130.0,
+          "time": 130.0,
+          "lambda": 18.0,
+          "utilization": 0.9198904743816813,
+          "avg_queue_length": 22.87815164928138,
+          "avg_active_servers": 3.94,
+          "avg_waiting_time": 1.2470739969740863
+        },
+        {
+          "start": 130.0,
+          "end": 140.0,
+          "time": 140.0,
+          "lambda": 18.0,
+          "utilization": 0.8070814991542434,
+          "avg_queue_length": 14.63307558047795,
+          "avg_active_servers": 4.75,
+          "avg_waiting_time": 0.8097721000916596
+        },
+        {
+          "start": 140.0,
+          "end": 150,
+          "time": 150,
+          "lambda": 18.0,
+          "utilization": 0.7347291990240863,
+          "avg_queue_length": 7.612325142517783,
+          "avg_active_servers": 4.94,
+          "avg_waiting_time": 0.4319706225845172
+        },
+        {
+          "start": 150,
+          "end": 160.0,
+          "time": 160.0,
+          "lambda": 5.0,
+          "utilization": 0.22843509893444086,
+          "avg_queue_length": 1.8328026314065877,
+          "avg_active_servers": 5.09,
+          "avg_waiting_time": 0.2081051643292977
+        },
+        {
+          "start": 160.0,
+          "end": 170.0,
+          "time": 170.0,
+          "lambda": 5.0,
+          "utilization": 0.23454322291301533,
+          "avg_queue_length": 0.02014070497575926,
+          "avg_active_servers": 4.54,
+          "avg_waiting_time": 0.012936353712019589
+        },
+        {
+          "start": 170.0,
+          "end": 180.0,
+          "time": 180.0,
+          "lambda": 5.0,
+          "utilization": 0.2429780337437462,
+          "avg_queue_length": 0.006229142975091321,
+          "avg_active_servers": 4.17,
+          "avg_waiting_time": 0.0012168179223059983
+        },
+        {
+          "start": 180.0,
+          "end": 190.0,
+          "time": 190.0,
+          "lambda": 5.0,
+          "utilization": 0.27442026431299255,
+          "avg_queue_length": 0.021332162698805942,
+          "avg_active_servers": 3.82,
+          "avg_waiting_time": 0.003954546641038388
+        },
+        {
+          "start": 190.0,
+          "end": 200,
+          "time": 200,
+          "lambda": 5.0,
+          "utilization": 0.3001315378294238,
+          "avg_queue_length": 0.02228255399529201,
+          "avg_active_servers": 3.46,
+          "avg_waiting_time": 0.00420896156005885
+        },
+        {
+          "start": 200,
+          "end": 210.0,
+          "time": 210.0,
+          "lambda": 2.0,
+          "utilization": 0.13386114485461734,
+          "avg_queue_length": 0.0014125177855614764,
+          "avg_active_servers": 3.26,
+          "avg_waiting_time": 0.0006480082190574616
+        },
+        {
+          "start": 210.0,
+          "end": 220.0,
+          "time": 220.0,
+          "lambda": 2.0,
+          "utilization": 0.15286858819392438,
+          "avg_queue_length": 0.010901188605740117,
+          "avg_active_servers": 2.59,
+          "avg_waiting_time": 0.004285071863923938
+        },
+        {
+          "start": 220.0,
+          "end": 230.0,
+          "time": 230.0,
+          "lambda": 2.0,
+          "utilization": 0.1723731951449511,
+          "avg_queue_length": 0.010552331274224315,
+          "avg_active_servers": 2.31,
+          "avg_waiting_time": 0.004893785159205843
+        },
+        {
+          "start": 230.0,
+          "end": 240.0,
+          "time": 240.0,
+          "lambda": 2.0,
+          "utilization": 0.215394781008054,
+          "avg_queue_length": 0.06218626230294274,
+          "avg_active_servers": 1.89,
+          "avg_waiting_time": 0.02816745455238079
+        },
+        {
+          "start": 240.0,
+          "end": 250.0,
+          "time": 250.0,
+          "lambda": 2.0,
+          "utilization": 0.26760738037167947,
+          "avg_queue_length": 0.0954984176318256,
+          "avg_active_servers": 1.67,
+          "avg_waiting_time": 0.042271503209700724
+        }
+      ],
+      "configuration": {
+        "label": "Dynamic autoscaling",
+        "type": "dynamic"
+      }
+    }
+  }
+}
