@@ -1,0 +1,62 @@
+[
+  {
+    "policy": "aggressive",
+    "policy_label": "Aggressive",
+    "avg_waiting_time": 1.73427433344276,
+    "avg_system_time": 1.93408736994675,
+    "avg_queue_length": 10.731892149254673,
+    "sla_violation_rate": 0.30295657955066374,
+    "server_hours": 741.94,
+    "balanced_score": 0.2,
+    "pareto_optimal": true,
+    "rank": 1
+  },
+  {
+    "policy": "fast_response",
+    "policy_label": "Fast-response",
+    "avg_waiting_time": 2.002718447706152,
+    "avg_system_time": 2.202532654803788,
+    "avg_queue_length": 12.181514261670971,
+    "sla_violation_rate": 0.3124374791432235,
+    "server_hours": 723.3,
+    "balanced_score": 0.22075270137382175,
+    "pareto_optimal": true,
+    "rank": 2
+  },
+  {
+    "policy": "queue_priority",
+    "policy_label": "Queue-priority",
+    "avg_waiting_time": 3.3298062527482832,
+    "avg_system_time": 3.529199765639499,
+    "avg_queue_length": 20.34621289444123,
+    "sla_violation_rate": 0.3978266876434239,
+    "server_hours": 645.28,
+    "balanced_score": 0.4019358258678135,
+    "pareto_optimal": true,
+    "rank": 3
+  },
+  {
+    "policy": "balanced",
+    "policy_label": "Balanced",
+    "avg_waiting_time": 3.926114352395737,
+    "avg_system_time": 4.125772340927757,
+    "avg_queue_length": 23.25622499389184,
+    "sla_violation_rate": 0.3719287756347428,
+    "server_hours": 663.6400000000001,
+    "balanced_score": 0.4947425117491401,
+    "pareto_optimal": true,
+    "rank": 4
+  },
+  {
+    "policy": "conservative",
+    "policy_label": "Conservative",
+    "avg_waiting_time": 5.425678520308169,
+    "avg_system_time": 5.625450556396425,
+    "avg_queue_length": 32.81990652979108,
+    "sla_violation_rate": 0.4744443296116178,
+    "server_hours": 627.3,
+    "balanced_score": 0.8,
+    "pareto_optimal": true,
+    "rank": 5
+  }
+]

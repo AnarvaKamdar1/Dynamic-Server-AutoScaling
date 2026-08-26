@@ -1,0 +1,751 @@
+workload,workload_label,policy,policy_label,system,system_label,metric,mean,stddev,ci95,repetitions
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,avg_waiting_time,14.378929678510701,1.8983498266467271,0.3720765660227585,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,avg_system_time,14.578907120623796,1.9012084498977289,0.37263685617995485,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,avg_queue_length,100.31130434600743,14.5837629535125,2.85841753888845,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,avg_utilization,0.6966535009559152,0.02487947594755676,0.004876377285721125,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,sla_violations,1201.79,64.84111038499879,12.708857635459761,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,sla_violation_rate,0.6898486743799928,0.026599287042966976,0.005213460260421527,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,avg_waiting_time,0.008736613859507374,0.0034545743760873134,0.0006770965777131134,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,avg_system_time,0.20951920246410907,0.006564027804923327,0.001286549449764972,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,avg_queue_length,0.061300927641358284,0.024703885705169258,0.004841961598213174,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,avg_utilization,0.23419074851495175,0.008088430280738348,0.0015853323350247164,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_waiting_time,0.8563581240969634,0.7373975901143935,0.14452992766242115,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_system_time,1.0561499640711356,0.7378526641576524,0.14461912217489986,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_queue_length,5.948418565654816,5.034963914673949,0.986852927276094,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_utilization,0.4846453726057506,0.024219886598161548,0.004747097773239664,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violations,446.47,265.7816927138101,52.09321177190678,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violation_rate,0.25613784254960736,0.15246954973048157,0.02988403174717439,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_active_servers,2.8572000000000006,0.19713134625616405,0.03863774386620815,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,server_hours,714.3,49.28283656404101,9.659435966552039,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,scale_up_events,4.0,0.40201512610368484,0.07879496471632222,100
+step_spike,Step spike,balanced,Balanced,dynamic,Dynamic - Balanced,scale_down_events,4.55,0.6092717958449425,0.11941727198560873,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,avg_waiting_time,14.378929678510701,1.8983498266467271,0.3720765660227585,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,avg_system_time,14.578907120623796,1.9012084498977289,0.37263685617995485,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,avg_queue_length,100.31130434600743,14.5837629535125,2.85841753888845,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,avg_utilization,0.6966535009559152,0.02487947594755676,0.004876377285721125,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,sla_violations,1201.79,64.84111038499879,12.708857635459761,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,sla_violation_rate,0.6898486743799928,0.026599287042966976,0.005213460260421527,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,avg_waiting_time,0.008736613859507374,0.0034545743760873134,0.0006770965777131134,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,avg_system_time,0.20951920246410907,0.006564027804923327,0.001286549449764972,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,avg_queue_length,0.061300927641358284,0.024703885705169258,0.004841961598213174,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,avg_utilization,0.23419074851495175,0.008088430280738348,0.0015853323350247164,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_waiting_time,0.4108381012753419,0.17842265953887174,0.03497084126961886,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_system_time,0.6108017340764775,0.17940477720993872,0.035163336333147985,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_queue_length,2.8687314340947747,1.2669901876173315,0.24833007677299695,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_utilization,0.43981434976122846,0.023749973835847135,0.004654994871826038,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violations,247.23,133.5197828946798,26.169877447357237,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violation_rate,0.14171374405165466,0.07573976071707157,0.014844993100546027,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_active_servers,3.1611999999999996,0.1794676752639496,0.03517566435173412,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,server_hours,790.3,44.86691881598738,8.793916087933527,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_up_events,4.97,0.5587684871413406,0.10951862347970276,100
+step_spike,Step spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_down_events,5.65,0.6871842709362769,0.13468811710351028,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,avg_waiting_time,14.378929678510701,1.8983498266467271,0.3720765660227585,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,avg_system_time,14.578907120623796,1.9012084498977289,0.37263685617995485,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,avg_queue_length,100.31130434600743,14.5837629535125,2.85841753888845,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,avg_utilization,0.6966535009559152,0.02487947594755676,0.004876377285721125,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,sla_violations,1201.79,64.84111038499879,12.708857635459761,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,sla_violation_rate,0.6898486743799928,0.026599287042966976,0.005213460260421527,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,avg_waiting_time,0.008736613859507374,0.0034545743760873134,0.0006770965777131134,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,avg_system_time,0.20951920246410907,0.006564027804923327,0.001286549449764972,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,avg_queue_length,0.061300927641358284,0.024703885705169258,0.004841961598213174,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,avg_utilization,0.23419074851495175,0.008088430280738348,0.0015853323350247164,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_waiting_time,3.027278530287523,1.8633283210673937,0.3652123509292092,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_system_time,3.22737534002598,1.8632832584541787,0.365203518657019,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_queue_length,21.104213363366004,13.102474780263595,2.5680850569316647,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_utilization,0.524188061731796,0.03222060545977059,0.0063152386701150354,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violations,963.62,287.383451299493,56.32715645470063,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violation_rate,0.5530730256815403,0.16385365483410316,0.03211531634748422,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_active_servers,2.7636000000000007,0.23031607618552158,0.04514195093236223,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,server_hours,690.9,57.57901904638036,11.285487733090552,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,scale_up_events,3.08,0.5445784209511575,0.10673737050642687,100
+step_spike,Step spike,conservative,Conservative,dynamic,Dynamic - Conservative,scale_down_events,2.98,0.5314360191257668,0.10416145974865028,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_waiting_time,14.378929678510701,1.8983498266467271,0.3720765660227585,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_system_time,14.578907120623796,1.9012084498977289,0.37263685617995485,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_queue_length,100.31130434600743,14.5837629535125,2.85841753888845,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_utilization,0.6966535009559152,0.02487947594755676,0.004876377285721125,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,sla_violations,1201.79,64.84111038499879,12.708857635459761,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,sla_violation_rate,0.6898486743799928,0.026599287042966976,0.005213460260421527,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_waiting_time,0.008736613859507374,0.0034545743760873134,0.0006770965777131134,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_system_time,0.20951920246410907,0.006564027804923327,0.001286549449764972,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_queue_length,0.061300927641358284,0.024703885705169258,0.004841961598213174,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_utilization,0.23419074851495175,0.008088430280738348,0.0015853323350247164,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_waiting_time,1.5304345341570385,1.255923156962984,0.24616093876474485,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_system_time,1.7302107633385457,1.2560228904930917,0.24618048653664598,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_queue_length,10.618712198890675,8.685917550831078,1.7024398399628915,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_utilization,0.503538024645419,0.02629043955310732,0.0051529261524090346,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violations,619.42,326.2248149650635,63.94006373315244,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violation_rate,0.3563295310217275,0.18867680449471017,0.03698065368096319,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_active_servers,2.7476,0.17100487322490734,0.03351695515208184,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,server_hours,686.9,42.75121830622683,8.379238788020459,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_up_events,3.8,0.4494665749754947,0.08809544869519695,100
+step_spike,Step spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_down_events,4.45,0.641573192719398,0.12574834577300203,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,avg_waiting_time,14.378929678510701,1.8983498266467271,0.3720765660227585,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,avg_system_time,14.578907120623796,1.9012084498977289,0.37263685617995485,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,avg_queue_length,100.31130434600743,14.5837629535125,2.85841753888845,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,avg_utilization,0.6966535009559152,0.02487947594755676,0.004876377285721125,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,sla_violations,1201.79,64.84111038499879,12.708857635459761,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,sla_violation_rate,0.6898486743799928,0.026599287042966976,0.005213460260421527,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,avg_waiting_time,0.008736613859507374,0.0034545743760873134,0.0006770965777131134,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,avg_system_time,0.20951920246410907,0.006564027804923327,0.001286549449764972,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,avg_queue_length,0.061300927641358284,0.024703885705169258,0.004841961598213174,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,avg_utilization,0.23419074851495175,0.008088430280738348,0.0015853323350247164,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_waiting_time,0.4347392501302788,0.18967019399588858,0.03717535802319416,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_system_time,0.6346586078461163,0.19065437811246547,0.037368258110043226,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_queue_length,3.037333444380384,1.3502664078783433,0.2646522159441553,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_utilization,0.44852285108809686,0.022057618744958277,0.004323293274011822,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violations,262.73,136.8583913866055,26.824244711774675,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violation_rate,0.15044528043347405,0.07732033422470153,0.015154785508041498,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_active_servers,3.0767999999999995,0.15813866821191583,0.030995178969535502,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,server_hours,769.2,39.53466705297895,7.748794742383875,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_up_events,4.7,0.5595813731096786,0.109677949129497,100
+step_spike,Step spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_down_events,5.43,0.728288432150367,0.14274453270147192,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,avg_waiting_time,0.66864414432608,0.3813925280031858,0.07475293548862441,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,avg_system_time,0.8681976422421311,0.3836000492177246,0.07518560964667402,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,avg_queue_length,4.181239569524829,2.448238913022581,0.4798548269524258,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,avg_utilization,0.5893201460477807,0.01993153632940239,0.003906581120562869,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,sla_violations,304.24,135.49006598196775,26.55605293246568,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,sla_violation_rate,0.2058561478442771,0.09117078883088084,0.017869474610852646,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,avg_waiting_time,0.0003929944580843775,0.00040285521037319725,7.895962123314666e-05,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,avg_system_time,0.20023063814686218,0.005549092981481072,0.00108762222437029,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,avg_queue_length,0.0023820106152585663,0.0024274800394022368,0.0004757860877228384,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,avg_utilization,0.2005010857640393,0.007798966246015366,0.0015285973842190117,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,avg_waiting_time,0.12584847475936534,0.043769864813966976,0.008578893503537527,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,avg_system_time,0.32503143675788104,0.04451102741346962,0.008724161373040046,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,avg_queue_length,0.7540675018306322,0.26044128807887357,0.051046492463459214,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,avg_utilization,0.5439897521784832,0.02928025034744287,0.005738929068098803,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violations,34.55,30.449287198702876,5.968060290945763,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violation_rate,0.023090635253090006,0.020358101686785406,0.00399018793060994,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,avg_active_servers,2.1720000000000015,0.127825638818642,0.025053825208453832,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,server_hours,543.0,31.956409704660523,6.263456302113463,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,scale_up_events,2.21,0.5737524894864676,0.11245548793934765,100
+gradual_ramp,Gradual ramp,balanced,Balanced,dynamic,Dynamic - Balanced,scale_down_events,0.94,0.3120476524086303,0.06116133987209153,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,avg_waiting_time,0.66864414432608,0.3813925280031858,0.07475293548862441,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,avg_system_time,0.8681976422421311,0.3836000492177246,0.07518560964667402,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,avg_queue_length,4.181239569524829,2.448238913022581,0.4798548269524258,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,avg_utilization,0.5893201460477807,0.01993153632940239,0.003906581120562869,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,sla_violations,304.24,135.49006598196775,26.55605293246568,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,sla_violation_rate,0.2058561478442771,0.09117078883088084,0.017869474610852646,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,avg_waiting_time,0.0003929944580843775,0.00040285521037319725,7.895962123314666e-05,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,avg_system_time,0.20023063814686218,0.005549092981481072,0.00108762222437029,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,avg_queue_length,0.0023820106152585663,0.0024274800394022368,0.0004757860877228384,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,avg_utilization,0.2005010857640393,0.007798966246015366,0.0015285973842190117,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_waiting_time,0.07648018604929652,0.0229701812728251,0.004502155529473719,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_system_time,0.2762096111783072,0.023732047886904473,0.004651481385833277,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_queue_length,0.4595844358503011,0.13850537086300396,0.027147052689148778,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_utilization,0.49355541922526913,0.028885369224211737,0.0056615323679455,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violations,15.61,15.270553296452555,2.9930284461047005,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violation_rate,0.010375396777471745,0.010102545929338652,0.0019800990021503757,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_active_servers,2.4007999999999994,0.1540279392207987,0.03018947608727654,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,server_hours,600.2,38.50698480519969,7.547369021819139,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_up_events,2.83,0.5514901759246617,0.10809207448123367,100
+gradual_ramp,Gradual ramp,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_down_events,0.94,0.3428932159955306,0.06720707033512399,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,avg_waiting_time,0.66864414432608,0.3813925280031858,0.07475293548862441,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,avg_system_time,0.8681976422421311,0.3836000492177246,0.07518560964667402,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,avg_queue_length,4.181239569524829,2.448238913022581,0.4798548269524258,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,avg_utilization,0.5893201460477807,0.01993153632940239,0.003906581120562869,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,sla_violations,304.24,135.49006598196775,26.55605293246568,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,sla_violation_rate,0.2058561478442771,0.09117078883088084,0.017869474610852646,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,avg_waiting_time,0.0003929944580843775,0.00040285521037319725,7.895962123314666e-05,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,avg_system_time,0.20023063814686218,0.005549092981481072,0.00108762222437029,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,avg_queue_length,0.0023820106152585663,0.0024274800394022368,0.0004757860877228384,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,avg_utilization,0.2005010857640393,0.007798966246015366,0.0015285973842190117,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,avg_waiting_time,0.21369494581297335,0.07692630266331761,0.015077555322010253,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,avg_system_time,0.41256847339661495,0.07777979941814149,0.015244840685955732,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,avg_queue_length,1.27725203624448,0.45412936497939493,0.08900935553596141,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,avg_utilization,0.5905270155268024,0.04200115712906518,0.008232226797296776,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violations,81.64,49.86335266900873,9.77321712312571,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violation_rate,0.054752142559440775,0.03358043652461104,0.006581765558823764,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,avg_active_servers,2.0127999999999995,0.15328115054079908,0.03004310550599662,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,server_hours,503.2,38.32028763519977,7.510776376499154,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,scale_up_events,1.89,0.399368187885502,0.0782761648255584,100
+gradual_ramp,Gradual ramp,conservative,Conservative,dynamic,Dynamic - Conservative,scale_down_events,0.86,0.34873508801977704,0.0683520772518763,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,avg_waiting_time,0.66864414432608,0.3813925280031858,0.07475293548862441,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,avg_system_time,0.8681976422421311,0.3836000492177246,0.07518560964667402,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,avg_queue_length,4.181239569524829,2.448238913022581,0.4798548269524258,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,avg_utilization,0.5893201460477807,0.01993153632940239,0.003906581120562869,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,sla_violations,304.24,135.49006598196775,26.55605293246568,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,sla_violation_rate,0.2058561478442771,0.09117078883088084,0.017869474610852646,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,avg_waiting_time,0.0003929944580843775,0.00040285521037319725,7.895962123314666e-05,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,avg_system_time,0.20023063814686218,0.005549092981481072,0.00108762222437029,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,avg_queue_length,0.0023820106152585663,0.0024274800394022368,0.0004757860877228384,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,avg_utilization,0.2005010857640393,0.007798966246015366,0.0015285973842190117,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_waiting_time,0.21386315493833635,0.08022373734910583,0.01572385252042474,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_system_time,0.41268223049303354,0.0810461616728898,0.015885047687886403,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_queue_length,1.2774078453350892,0.47256905958404555,0.09262353567847292,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_utilization,0.5926857165051667,0.040100282208873905,0.007859655312939286,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violations,81.79,51.47349911470087,10.088805826481371,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violation_rate,0.054890192122552,0.034693198552866414,0.006799866916361817,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_active_servers,1.999199999999999,0.14890631588045863,0.029185637912569888,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,server_hours,499.8,37.22657897011462,7.296409478142467,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_up_events,1.97,0.36111499609409775,0.07077853923444316,100
+gradual_ramp,Gradual ramp,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_down_events,0.93,0.2931886695621028,0.05746497923417215,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,avg_waiting_time,0.66864414432608,0.3813925280031858,0.07475293548862441,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,avg_system_time,0.8681976422421311,0.3836000492177246,0.07518560964667402,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,avg_queue_length,4.181239569524829,2.448238913022581,0.4798548269524258,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,avg_utilization,0.5893201460477807,0.01993153632940239,0.003906581120562869,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,sla_violations,304.24,135.49006598196775,26.55605293246568,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,sla_violation_rate,0.2058561478442771,0.09117078883088084,0.017869474610852646,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,avg_waiting_time,0.0003929944580843775,0.00040285521037319725,7.895962123314666e-05,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,avg_system_time,0.20023063814686218,0.005549092981481072,0.00108762222437029,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,avg_queue_length,0.0023820106152585663,0.0024274800394022368,0.0004757860877228384,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,avg_utilization,0.2005010857640393,0.007798966246015366,0.0015285973842190117,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_waiting_time,0.09775194325021488,0.027317241318081456,0.0053541792983439656,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_system_time,0.29741449706244594,0.028007248844700593,0.005489420773561316,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_queue_length,0.587176991715221,0.1630010623015035,0.03194820821109469,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_utilization,0.5206377171950738,0.029722193642989468,0.005825549954025936,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violations,21.29,17.665405901268322,3.462419556648591,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violation_rate,0.014178326363031511,0.011719175543744206,0.0022969584065738644,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_active_servers,2.277200000000001,0.14926134628546495,0.02925522387195113,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,server_hours,569.3,37.31533657136624,7.313805967987783,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_up_events,2.53,0.5765624358421577,0.11300623742506291,100
+gradual_ramp,Gradual ramp,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_down_events,0.91,0.2876234912646614,0.05637420428787363,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,avg_waiting_time,15.329936439448424,2.066309458208927,0.40499665380894967,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,avg_system_time,15.529509450228511,2.0691344572943273,0.40555035362968817,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,avg_queue_length,79.98418251886251,12.29050425695375,2.4089388343629348,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,avg_utilization,0.519579813559807,0.02134984287266201,0.004184569203041754,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,sla_violations,972.43,44.50746277226148,8.72346270336325,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,sla_violation_rate,0.7470805380264243,0.020500095295615695,0.004018018677940676,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,avg_waiting_time,0.011459576125643512,0.004892729024707805,0.0009589748888427299,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,avg_system_time,0.2113699943141397,0.008472522423102449,0.00166061439492808,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,avg_queue_length,0.06012922003764301,0.026505772049028837,0.0051951313216096525,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,avg_utilization,0.17388401693508945,0.007002415550052328,0.0013724734478102562,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_waiting_time,12.390245121590944,2.6674647644577703,0.5228230938337229,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_system_time,12.590203219806721,2.6681406517661506,0.5229555677461655,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_queue_length,64.73632638342168,14.38472977102958,2.819407035121798,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_utilization,0.4518902121196068,0.024019035054163574,0.00470773087061606,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violations,938.53,36.04555339000803,7.064928464441574,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violation_rate,0.7192286919634953,0.018289776717886452,0.0035847962367057443,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,avg_active_servers,2.430000000000001,0.10747797519266525,0.02106568313776239,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,server_hours,607.5,26.869493798166296,5.2664207844405935,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,scale_up_events,3.93,0.25643239997624295,0.050260750395343626,100
+sudden_spike,Sudden spike,balanced,Balanced,dynamic,Dynamic - Balanced,scale_down_events,4.72,0.4512608598542127,0.0884471285314257,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,avg_waiting_time,15.329936439448424,2.066309458208927,0.40499665380894967,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,avg_system_time,15.529509450228511,2.0691344572943273,0.40555035362968817,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,avg_queue_length,79.98418251886251,12.29050425695375,2.4089388343629348,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,avg_utilization,0.519579813559807,0.02134984287266201,0.004184569203041754,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,sla_violations,972.43,44.50746277226148,8.72346270336325,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,sla_violation_rate,0.7470805380264243,0.020500095295615695,0.004018018677940676,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,avg_waiting_time,0.011459576125643512,0.004892729024707805,0.0009589748888427299,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,avg_system_time,0.2113699943141397,0.008472522423102449,0.00166061439492808,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,avg_queue_length,0.06012922003764301,0.026505772049028837,0.0051951313216096525,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,avg_utilization,0.17388401693508945,0.007002415550052328,0.0013724734478102562,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_waiting_time,4.2594073942086945,1.1111963882205296,0.2177944920912238,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_system_time,4.458847267543887,1.1121209653972375,0.21797570921785855,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_queue_length,22.195618229983584,5.90075104053652,1.1565472039451579,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_utilization,0.40659976305950596,0.023258865091815347,0.004558737557995808,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violations,839.26,110.8898461528285,21.734409845954385,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violation_rate,0.6448040103097317,0.08200974930025236,0.016073910862849462,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_active_servers,2.6079999999999983,0.1414499233229938,0.027724184971306787,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,server_hours,652.0,35.36248083074844,6.931046242826694,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_up_events,5.86,0.586377339124206,0.11492995846834438,100
+sudden_spike,Sudden spike,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_down_events,6.77,0.6333333333333337,0.1241333333333334,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,avg_waiting_time,15.329936439448424,2.066309458208927,0.40499665380894967,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,avg_system_time,15.529509450228511,2.0691344572943273,0.40555035362968817,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,avg_queue_length,79.98418251886251,12.29050425695375,2.4089388343629348,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,avg_utilization,0.519579813559807,0.02134984287266201,0.004184569203041754,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,sla_violations,972.43,44.50746277226148,8.72346270336325,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,sla_violation_rate,0.7470805380264243,0.020500095295615695,0.004018018677940676,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,avg_waiting_time,0.011459576125643512,0.004892729024707805,0.0009589748888427299,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,avg_system_time,0.2113699943141397,0.008472522423102449,0.00166061439492808,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,avg_queue_length,0.06012922003764301,0.026505772049028837,0.0051951313216096525,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,avg_utilization,0.17388401693508945,0.007002415550052328,0.0013724734478102562,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_waiting_time,15.086006665637523,3.3816362077210163,0.6628006967133191,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_system_time,15.285740737085227,3.3817774881007114,0.6628283876677394,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_queue_length,78.7158227434967,18.148907265715955,3.557185824080327,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_utilization,0.47455364689461343,0.030268139860381345,0.005932555412634743,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violations,952.29,40.927700481051545,8.021829294286103,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violation_rate,0.7307178049761238,0.021987196015651515,0.004309490419067697,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,avg_active_servers,2.2523999999999997,0.0957598005111716,0.018768920900189633,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,server_hours,563.1,23.93995012779292,4.692230225047412,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,scale_up_events,2.9,0.3015113445777636,0.05909622353724166,100
+sudden_spike,Sudden spike,conservative,Conservative,dynamic,Dynamic - Conservative,scale_down_events,3.41,0.5143398239932956,0.10081060550268592,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_waiting_time,15.329936439448424,2.066309458208927,0.40499665380894967,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_system_time,15.529509450228511,2.0691344572943273,0.40555035362968817,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_queue_length,79.98418251886251,12.29050425695375,2.4089388343629348,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_utilization,0.519579813559807,0.02134984287266201,0.004184569203041754,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,sla_violations,972.43,44.50746277226148,8.72346270336325,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,sla_violation_rate,0.7470805380264243,0.020500095295615695,0.004018018677940676,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_waiting_time,0.011459576125643512,0.004892729024707805,0.0009589748888427299,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_system_time,0.2113699943141397,0.008472522423102449,0.00166061439492808,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_queue_length,0.06012922003764301,0.026505772049028837,0.0051951313216096525,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_utilization,0.17388401693508945,0.007002415550052328,0.0013724734478102562,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_waiting_time,8.636150273822368,1.871328020713957,0.36678029205993556,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_system_time,8.8351243882099,1.8724124259491461,0.3669928354860327,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_queue_length,44.93418502690654,10.176805751325047,1.994653927259709,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_utilization,0.43435719179390986,0.023512996258244066,0.004608547266615836,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violations,912.76,57.223135816968906,11.215734620125906,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violation_rate,0.702897305202451,0.037116545866503474,0.0072748429898346805,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_active_servers,2.4356,0.10512445726448022,0.020604393623838122,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,server_hours,608.9,26.281114316120036,5.151098405959527,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_up_events,3.92,0.3074824459143228,0.06026655939920726,100
+sudden_spike,Sudden spike,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_down_events,4.77,0.44619604333847424,0.08745442449434095,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,avg_waiting_time,15.329936439448424,2.066309458208927,0.40499665380894967,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,avg_system_time,15.529509450228511,2.0691344572943273,0.40555035362968817,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,avg_queue_length,79.98418251886251,12.29050425695375,2.4089388343629348,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,avg_utilization,0.519579813559807,0.02134984287266201,0.004184569203041754,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,sla_violations,972.43,44.50746277226148,8.72346270336325,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,sla_violation_rate,0.7470805380264243,0.020500095295615695,0.004018018677940676,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,avg_waiting_time,0.011459576125643512,0.004892729024707805,0.0009589748888427299,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,avg_system_time,0.2113699943141397,0.008472522423102449,0.00166061439492808,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,avg_queue_length,0.06012922003764301,0.026505772049028837,0.0051951313216096525,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,avg_utilization,0.17388401693508945,0.007002415550052328,0.0013724734478102562,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_waiting_time,5.4113436411397355,2.055933092854475,0.40296288619947707,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_system_time,5.610551307239108,2.056581963450807,0.40309006483635823,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_queue_length,28.107810947362022,10.549123046262254,2.0676281170674016,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_utilization,0.41180978145489694,0.023197792963677886,0.004546767420880866,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violations,862.99,77.91195432193076,15.27074304709843,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violation_rate,0.6637757952080153,0.055969289105356756,0.010969980664649924,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_active_servers,2.5800000000000005,0.13555721144873698,0.026569213443952445,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,server_hours,645.0,33.88930286218423,6.642303360988109,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_up_events,5.67,0.6039432711335346,0.11837288114217279,100
+sudden_spike,Sudden spike,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_down_events,6.57,0.6236905474591534,0.12224334730199407,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,avg_waiting_time,13.03656094567807,1.438708348468924,0.2819868362999091,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,avg_system_time,13.236370682299237,1.441599482953402,0.2825534986588668,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,avg_queue_length,92.82704151899266,11.719637370869119,2.297048924690347,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,avg_utilization,0.7104799599196856,0.025215702429346794,0.004942277676151971,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,sla_violations,1514.19,64.79255085628785,12.699339967832419,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,sla_violation_rate,0.8517855064083801,0.02253377932381112,0.004416620747466979,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,avg_waiting_time,0.009576398179904827,0.003358416829968626,0.0006582496986738506,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,avg_system_time,0.20973837314997185,0.005928699642707509,0.0011620251299706717,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,avg_queue_length,0.06838602240972814,0.024552012568720864,0.004812194463469289,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,avg_utilization,0.2376108838143584,0.006516046378373264,0.0012771450901611597,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,avg_waiting_time,4.287072464711297,1.134475459531573,0.2223571900681883,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,avg_system_time,4.487154404537428,1.1350029342355794,0.22246057511017353,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,avg_queue_length,30.528837853852284,8.235786005822842,1.614214057141277,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,avg_utilization,0.49516601756729295,0.021372610649368462,0.004189031687276219,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violations,949.91,229.7383269915773,45.02871209034915,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violation_rate,0.5338041507590211,0.1273374054307092,0.024958131464419005,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,avg_active_servers,2.9419999999999984,0.09365744589575989,0.01835685939556894,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,server_hours,735.5,23.414361473939945,4.589214848892229,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,scale_up_events,4.9,0.3015113445777635,0.05909622353724164,100
+repeated_spikes,Repeated spikes,balanced,Balanced,dynamic,Dynamic - Balanced,scale_down_events,5.2,0.5860327153276884,0.11486241220422692,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,avg_waiting_time,13.03656094567807,1.438708348468924,0.2819868362999091,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,avg_system_time,13.236370682299237,1.441599482953402,0.2825534986588668,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,avg_queue_length,92.82704151899266,11.719637370869119,2.297048924690347,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,avg_utilization,0.7104799599196856,0.025215702429346794,0.004942277676151971,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,sla_violations,1514.19,64.79255085628785,12.699339967832419,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,sla_violation_rate,0.8517855064083801,0.02253377932381112,0.004416620747466979,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,avg_waiting_time,0.009576398179904827,0.003358416829968626,0.0006582496986738506,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,avg_system_time,0.20973837314997185,0.005928699642707509,0.0011620251299706717,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,avg_queue_length,0.06838602240972814,0.024552012568720864,0.004812194463469289,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,avg_utilization,0.2376108838143584,0.006516046378373264,0.0012771450901611597,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_waiting_time,2.8621323814923767,0.9104493228852368,0.1784480672855064,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_system_time,3.062258091343076,0.9106829183488453,0.17849385199637366,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_queue_length,20.391570320091695,6.530313536542261,1.2799414531622832,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_utilization,0.45008743478655977,0.022086837251266655,0.004329020101248264,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violations,874.12,238.90018540356678,46.82443633909909,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violation_rate,0.4910411057497333,0.1343604217752149,0.02633464266794212,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_active_servers,3.3371999999999984,0.15727528461749848,0.030825955785029703,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,server_hours,834.3,39.31882115437462,7.706488946257425,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_up_events,7.81,0.7479939501726928,0.14660681423384778,100
+repeated_spikes,Repeated spikes,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_down_events,8.52,0.8584693919818563,0.16826000082844383,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,avg_waiting_time,13.03656094567807,1.438708348468924,0.2819868362999091,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,avg_system_time,13.236370682299237,1.441599482953402,0.2825534986588668,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,avg_queue_length,92.82704151899266,11.719637370869119,2.297048924690347,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,avg_utilization,0.7104799599196856,0.025215702429346794,0.004942277676151971,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,sla_violations,1514.19,64.79255085628785,12.699339967832419,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,sla_violation_rate,0.8517855064083801,0.02253377932381112,0.004416620747466979,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,avg_waiting_time,0.009576398179904827,0.003358416829968626,0.0006582496986738506,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,avg_system_time,0.20973837314997185,0.005928699642707509,0.0011620251299706717,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,avg_queue_length,0.06838602240972814,0.024552012568720864,0.004812194463469289,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,avg_utilization,0.2376108838143584,0.006516046378373264,0.0012771450901611597,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,avg_waiting_time,6.43674626649876,3.3262172422988177,0.6519385794905682,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,avg_system_time,6.636975240214668,3.325854973774214,0.6518675748597459,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,avg_queue_length,45.76115383215421,23.554660607149817,4.616713479001364,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,avg_utilization,0.5394718620563699,0.05306602317942422,0.010400940543167148,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violations,1183.8,289.0779140716918,56.659271158051595,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violation_rate,0.6649193841178735,0.16182692830741727,0.03171807794825378,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,avg_active_servers,2.741600000000001,0.2739266288256729,0.053689619249831885,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,server_hours,685.4,68.48165720641816,13.42240481245796,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,scale_up_events,3.64,0.48241815132442206,0.09455395765958671,100
+repeated_spikes,Repeated spikes,conservative,Conservative,dynamic,Dynamic - Conservative,scale_down_events,3.4,0.49236596391733095,0.09650372892779686,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,avg_waiting_time,13.03656094567807,1.438708348468924,0.2819868362999091,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,avg_system_time,13.236370682299237,1.441599482953402,0.2825534986588668,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,avg_queue_length,92.82704151899266,11.719637370869119,2.297048924690347,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,avg_utilization,0.7104799599196856,0.025215702429346794,0.004942277676151971,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,sla_violations,1514.19,64.79255085628785,12.699339967832419,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,sla_violation_rate,0.8517855064083801,0.02253377932381112,0.004416620747466979,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,avg_waiting_time,0.009576398179904827,0.003358416829968626,0.0006582496986738506,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,avg_system_time,0.20973837314997185,0.005928699642707509,0.0011620251299706717,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,avg_queue_length,0.06838602240972814,0.024552012568720864,0.004812194463469289,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,avg_utilization,0.2376108838143584,0.006516046378373264,0.0012771450901611597,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_waiting_time,4.275889417753116,1.1630221747557175,0.2279523462521206,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_system_time,4.475901236676781,1.1632782947305813,0.22800254576719392,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_queue_length,30.423538971479232,8.418610259184208,1.6500476108001045,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_utilization,0.49654884263041477,0.02126994858137097,0.004168909921948709,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violations,953.94,223.96657488711713,43.897448677874955,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violation_rate,0.5363643188725298,0.12423054583878387,0.02434918698440164,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_active_servers,2.9235999999999978,0.13003123167962843,0.025486121409207176,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,server_hours,730.9,32.5078079199071,6.371530352301791,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_up_events,4.82,0.4353101761904368,0.08532079453332561,100
+repeated_spikes,Repeated spikes,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_down_events,5.14,0.6516490348695871,0.12772321083443908,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,avg_waiting_time,13.03656094567807,1.438708348468924,0.2819868362999091,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,avg_system_time,13.236370682299237,1.441599482953402,0.2825534986588668,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,avg_queue_length,92.82704151899266,11.719637370869119,2.297048924690347,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,avg_utilization,0.7104799599196856,0.025215702429346794,0.004942277676151971,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,sla_violations,1514.19,64.79255085628785,12.699339967832419,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,sla_violation_rate,0.8517855064083801,0.02253377932381112,0.004416620747466979,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,avg_waiting_time,0.009576398179904827,0.003358416829968626,0.0006582496986738506,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,avg_system_time,0.20973837314997185,0.005928699642707509,0.0011620251299706717,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,avg_queue_length,0.06838602240972814,0.024552012568720864,0.004812194463469289,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,avg_utilization,0.2376108838143584,0.006516046378373264,0.0012771450901611597,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_waiting_time,3.004022709286779,0.9533446046650443,0.1868555425143487,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_system_time,3.2041967632742496,0.9532924605869029,0.18684532227503298,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_queue_length,21.395489168587563,6.813494566451504,1.3354449350244946,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_utilization,0.45630943225297116,0.0191493880508377,0.003753280057964189,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violations,900.76,242.4831190625505,47.526691336259894,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violation_rate,0.5061718586116113,0.13764342342858676,0.026978110992003007,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_active_servers,3.271999999999998,0.14258791369296736,0.0279472310838216,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,server_hours,818.0,35.64697842324186,6.986807770955404,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_up_events,7.59,0.7398471040517343,0.14501003239413993,100
+repeated_spikes,Repeated spikes,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_down_events,8.34,0.8787042802451873,0.1722260389280567,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,avg_waiting_time,4.808761713700045,1.0079620045671958,0.19756055289517035,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,avg_system_time,5.008551826037257,1.0093738537169796,0.197837275328528,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,avg_queue_length,35.16358113557175,8.166747765157005,1.600682561970773,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,avg_utilization,0.7277515744097184,0.024961149809195032,0.004892385362602227,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,sla_violations,1307.51,124.59603370959132,24.4208226070799,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,sla_violation_rate,0.7172225463387426,0.05534951362089238,0.010848504669694907,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,avg_waiting_time,0.0033714271351958573,0.001472675290736118,0.0002886443569842791,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,avg_system_time,0.20251235739552556,0.004858510815905451,0.0009522681199174684,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,avg_queue_length,0.02451123720029957,0.010899595336580659,0.002136320685969809,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,avg_utilization,0.2407072914115032,0.007317886599680617,0.0014343057735374009,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,avg_waiting_time,1.971047576820114,0.8464392130457488,0.16590208575696674,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,avg_system_time,2.1703226794656176,0.847152375060756,0.1660418655119082,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,avg_queue_length,14.313474664699784,6.1608635243301775,1.2075292507687148,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,avg_utilization,0.5323064326354348,0.03567536496724382,0.006992371533579789,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violations,594.1,214.19977930554796,41.9831567438874,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,sla_violation_rate,0.3273825576485006,0.11766220899316754,0.023061792962660838,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,avg_active_servers,2.871600000000001,0.19795275428569548,0.03879873983999631,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,server_hours,717.9,49.4881885714239,9.699684959999084,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,scale_up_events,4.61,0.680092091209163,0.13329804987699595,100
+bursty,Bursty workload,balanced,Balanced,dynamic,Dynamic - Balanced,scale_down_events,4.5,0.674199862463242,0.13214317304279544,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,avg_waiting_time,4.808761713700045,1.0079620045671958,0.19756055289517035,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,avg_system_time,5.008551826037257,1.0093738537169796,0.197837275328528,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,avg_queue_length,35.16358113557175,8.166747765157005,1.600682561970773,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,avg_utilization,0.7277515744097184,0.024961149809195032,0.004892385362602227,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,sla_violations,1307.51,124.59603370959132,24.4208226070799,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,sla_violation_rate,0.7172225463387426,0.05534951362089238,0.010848504669694907,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,avg_waiting_time,0.0033714271351958573,0.001472675290736118,0.0002886443569842791,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,avg_system_time,0.20251235739552556,0.004858510815905451,0.0009522681199174684,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,avg_queue_length,0.02451123720029957,0.010899595336580659,0.002136320685969809,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,avg_utilization,0.2407072914115032,0.007317886599680617,0.0014343057735374009,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_waiting_time,1.06251360418809,0.45686383477024084,0.0895453116149672,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_system_time,1.2623201455920026,0.457531476435574,0.0896761693813725,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_queue_length,7.743956326253007,3.367135761105739,0.6599586091767249,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_utilization,0.46827022435935506,0.024301446478509882,0.004763083509787937,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violations,412.88,175.92935221189492,34.482153033531404,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,sla_violation_rate,0.22684864086472728,0.09627189444009143,0.01886929131025792,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,avg_active_servers,3.3316000000000003,0.15697082016680164,0.03076628075269312,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,server_hours,832.9,39.24270504170044,7.691570188173285,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_up_events,7.6,1.0249414863810766,0.200888531330691,100
+bursty,Bursty workload,aggressive,Aggressive,dynamic,Dynamic - Aggressive,scale_down_events,7.66,1.065719276243784,0.20888097814378165,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,avg_waiting_time,4.808761713700045,1.0079620045671958,0.19756055289517035,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,avg_system_time,5.008551826037257,1.0093738537169796,0.197837275328528,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,avg_queue_length,35.16358113557175,8.166747765157005,1.600682561970773,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,avg_utilization,0.7277515744097184,0.024961149809195032,0.004892385362602227,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,sla_violations,1307.51,124.59603370959132,24.4208226070799,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,sla_violation_rate,0.7172225463387426,0.05534951362089238,0.010848504669694907,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,avg_waiting_time,0.0033714271351958573,0.001472675290736118,0.0002886443569842791,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,avg_system_time,0.20251235739552556,0.004858510815905451,0.0009522681199174684,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,avg_queue_length,0.02451123720029957,0.010899595336580659,0.002136320685969809,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,avg_utilization,0.2407072914115032,0.007317886599680617,0.0014343057735374009,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,avg_waiting_time,2.364666193304066,1.3640811025237272,0.2673598960946505,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,avg_system_time,2.564592991259633,1.3652496573490012,0.26758893284040425,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,avg_queue_length,17.241090673694025,9.97723321611139,1.9555377103578322,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,avg_utilization,0.5513996910367436,0.04588338720073761,0.008993143891344573,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violations,671.37,261.3939963218958,51.233223279091575,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,sla_violation_rate,0.3687592907231108,0.14416636611860567,0.02825660775924671,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,avg_active_servers,2.7756000000000007,0.20107951088305773,0.03941158413307931,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,server_hours,693.9,50.26987772076436,9.852896033269815,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,scale_up_events,3.06,0.4454030067072272,0.08729898931461652,100
+bursty,Bursty workload,conservative,Conservative,dynamic,Dynamic - Conservative,scale_down_events,2.96,0.5108914767444266,0.1001347294419076,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,avg_waiting_time,4.808761713700045,1.0079620045671958,0.19756055289517035,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,avg_system_time,5.008551826037257,1.0093738537169796,0.197837275328528,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,avg_queue_length,35.16358113557175,8.166747765157005,1.600682561970773,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,avg_utilization,0.7277515744097184,0.024961149809195032,0.004892385362602227,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,sla_violations,1307.51,124.59603370959132,24.4208226070799,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,sla_violation_rate,0.7172225463387426,0.05534951362089238,0.010848504669694907,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,avg_waiting_time,0.0033714271351958573,0.001472675290736118,0.0002886443569842791,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,avg_system_time,0.20251235739552556,0.004858510815905451,0.0009522681199174684,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,avg_queue_length,0.02451123720029957,0.010899595336580659,0.002136320685969809,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,avg_utilization,0.2407072914115032,0.007317886599680617,0.0014343057735374009,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_waiting_time,1.9926938830705578,0.8180959353766586,0.16034680333382506,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_system_time,2.1920802094792378,0.8186473901964069,0.16045488847849573,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_queue_length,14.477220429594604,5.961325400583039,1.1684197785142758,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_utilization,0.5431373197676808,0.02914952535107449,0.005713306968810601,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violations,615.28,187.14635767740498,36.680686104771375,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,sla_violation_rate,0.33865209099785887,0.10196719839213465,0.019985570884858393,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,avg_active_servers,2.7996000000000003,0.12160475801430291,0.023834532570803372,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,server_hours,699.9,30.40118950357573,5.958633142700842,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_up_events,4.38,0.6633249580710796,0.1300116917819316,100
+bursty,Bursty workload,queue_priority,Queue-priority,dynamic,Dynamic - Queue-priority,scale_down_events,4.38,0.7355338884171827,0.14416464212976782,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,avg_waiting_time,4.808761713700045,1.0079620045671958,0.19756055289517035,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,avg_system_time,5.008551826037257,1.0093738537169796,0.197837275328528,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,avg_queue_length,35.16358113557175,8.166747765157005,1.600682561970773,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,avg_utilization,0.7277515744097184,0.024961149809195032,0.004892385362602227,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,sla_violations,1307.51,124.59603370959132,24.4208226070799,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,sla_violation_rate,0.7172225463387426,0.05534951362089238,0.010848504669694907,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,avg_active_servers,2.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,server_hours,500.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c2,Static c=2,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,avg_waiting_time,0.0033714271351958573,0.001472675290736118,0.0002886443569842791,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,avg_system_time,0.20251235739552556,0.004858510815905451,0.0009522681199174684,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,avg_queue_length,0.02451123720029957,0.010899595336580659,0.002136320685969809,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,avg_utilization,0.2407072914115032,0.007317886599680617,0.0014343057735374009,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,sla_violations,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,sla_violation_rate,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,avg_active_servers,6.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,server_hours,1500.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,scale_up_events,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,static_c6,Static c=6,scale_down_events,0.0,0.0,0.0,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_waiting_time,1.0657346947237503,0.4400115953030155,0.08624227267939102,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_system_time,1.265842098597018,0.44082588182525667,0.0864018728377503,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_queue_length,7.779760756309661,3.2541119423175244,0.6378059406942348,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_utilization,0.4759845914561786,0.02278150631333132,0.004465175237412938,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violations,414.85,171.4899281431578,33.612025916058926,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,sla_violation_rate,0.22761613509998518,0.09375199422845619,0.018375390868777413,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,avg_active_servers,3.2599999999999976,0.1507958684427194,0.029555990214773,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,server_hours,815.0,37.69896711067985,7.388997553693251,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_up_events,7.09,1.1200198410940967,0.21952388885444293,100
+bursty,Bursty workload,fast_response,Fast-response,dynamic,Dynamic - Fast-response,scale_down_events,7.24,1.1730991501836556,0.2299274334359965,100
