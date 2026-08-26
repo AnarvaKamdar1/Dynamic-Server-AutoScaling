@@ -80,8 +80,7 @@ They show the dynamic policy tracking demand while a static c=2 baseline collaps
 **2. Policy comparison under one representative workload**
 
 ![All policies compared — waiting time under bursty load](experiments/results/policy_study/plots/all_policies_by_workload/bursty_avg_waiting_time.png)
-
-![All policies compared — active servers under bursty load](bursty_avg_active_servers.png)
+![All policies compared — active servers under bursty load](experiments/results/policy_study/plots/all_policies_by_workload/bursty_avg_active_servers.png)
 
 
 **3. Summary Tables**
