@@ -68,14 +68,14 @@ flowchart TD
 
 ## Experiment Results
 
-This section is where the headline plots go. Because the full study produces well over 100 plots (5 workloads × 5 policies × 4 metrics), don't paste all of them — pick a small, representative set. Here's what I'd grab and where each file already exists in your repo:
+The full study produces well over 100 plots (5 workloads × 5 policies × 4 metrics), so I show a representative set.
 
-**1. Static vs. Dynamic — does autoscaling actually help?**
+**1. Static vs. Dynamic : does autoscaling actually help?**
 Source: `experiments/results/waiting_vs_time.png` and `experiments/results/servers_vs_time.png`
 Copy both into `docs/assets/`, then embed:
 ```markdown
-![Waiting time: static vs dynamic](docs/assets/waiting_vs_time.png)
-![Server count over time: dynamic autoscaling in action](docs/assets/servers_vs_time.png)
+![Waiting time: static vs dynamic](experiments/results/waiting_vs_time.png)
+![Server count over time: dynamic autoscaling in action](experiments/results/servers_vs_time.png)
 ```
 These are your strongest single pair — they show the dynamic policy tracking demand while a static c=2 baseline collapses under load and a static c=6 baseline sits idle.
 
