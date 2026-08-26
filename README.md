@@ -73,10 +73,10 @@ The full study produces well over 100 plots (5 workloads × 5 policies × 4 metr
 **1. Static vs. Dynamic : does autoscaling actually help?**
 Source: `experiments/results/waiting_vs_time.png` and `experiments/results/servers_vs_time.png`
 Copy both into `docs/assets/`, then embed:
-```markdown
+
 ![Waiting time: static vs dynamic](experiments/results/waiting_vs_time.png)
 ![Server count over time: dynamic autoscaling in action](experiments/results/servers_vs_time.png)
-```
+
 These are your strongest single pair — they show the dynamic policy tracking demand while a static c=2 baseline collapses under load and a static c=6 baseline sits idle.
 
 **2. Policy comparison under one representative workload**
