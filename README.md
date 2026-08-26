@@ -71,22 +71,20 @@ flowchart TD
 The full study produces well over 100 plots (5 workloads × 5 policies × 4 metrics), so I show a representative set.
 
 **1. Static vs. Dynamic : does autoscaling actually help?**
-Source: `experiments/results/waiting_vs_time.png` and `experiments/results/servers_vs_time.png`
-Copy both into `docs/assets/`, then embed:
 
 ![Waiting time: static vs dynamic](experiments/results/waiting_vs_time.png)
 ![Server count over time: dynamic autoscaling in action](experiments/results/servers_vs_time.png)
 
-These are your strongest single pair — they show the dynamic policy tracking demand while a static c=2 baseline collapses under load and a static c=6 baseline sits idle.
+They show the dynamic policy tracking demand while a static c=2 baseline collapses under load and a static c=6 baseline sits idle.
 
 **2. Policy comparison under one representative workload**
-Source: `experiments/results/policy_study/plots/all_policies_by_workload/bursty_avg_waiting_time.png` and `bursty_avg_active_servers.png` (bursty is the most illustrative workload — pick a different one only if another tells a clearer story for your write-up)
-```markdown
-![All policies compared — waiting time under bursty load](docs/assets/bursty_avg_waiting_time.png)
-![All policies compared — active servers under bursty load](docs/assets/bursty_avg_active_servers.png)
-```
 
-**3. Headline numbers table (paste as-is, no image needed)**
+![All policies compared — waiting time under bursty load](experiments/results/policy_study/plots/all_policies_by_workload/bursty_avg_waiting_time.png)
+
+![All policies compared — active servers under bursty load](bursty_avg_active_servers.png)
+
+
+**3. Summary Tables**
 
 Static vs. dynamic baseline comparison (from `experiments/results/summary.csv`):
 
@@ -106,9 +104,9 @@ Cross-workload policy ranking (from `experiments/results/policy_study/policy_ran
 | 4 | Balanced | 3.93 | 37.19% | 663.6 | ✅ |
 | 5 | Conservative | 5.43 | 47.44% | 627.3 | ✅ |
 
-All five policies land on the Pareto frontier — none is strictly dominated, so the "right" policy depends on whether you're optimizing for latency or cost.
+All five policies land on the Pareto frontier which implies that none is strictly dominated, so the "right" policy depends on whether we are optimizing for latency or cost.
 
-Total images to embed: **4 plots + 2 tables**. That's enough to tell the full story without turning the README into a gallery. Keep everything else (the other ~115 plots) out of the repo entirely or in an uncommitted local folder — they're already regenerable via `plot_policy_study.py`.
+Other all plots are regenerable via `plot_policy_study.py`.
 
 ---
 
@@ -146,8 +144,14 @@ All results are written to `experiments/results/`.
 ## Limitations
 
 - **Exponential-only assumptions** — arrivals and service times are modeled as Poisson/exponential (the M/M/c assumption). Real-world traffic and service times are often heavier-tailed, which would change absolute numbers even if the qualitative policy comparison holds.
-- **Homogeneous servers** — every server is identical with the same service rate; no modeling of heterogeneous hardware or degraded-instance effects.
+- **Homogeneous servers** — every server is identical with the same service rate, no modeling of heterogeneous hardware or degraded-instance effects.
 - **Instantaneous scaling** — adding a server takes effect immediately in the simulation. Real infrastructure has boot/warm-up latency, which would penalize aggressive policies more than shown here.
 - **Fixed threshold/cooldown values** — thresholds aren't learned or auto-tuned; they're manually chosen per policy. A natural extension would be to search over threshold values rather than fix them.
 - **No real infrastructure cost model** — "server-hours" is a proxy for cost, not a real cloud pricing model (spot pricing, reserved instances, etc. are not represented).
-- **Single-resource bottleneck** — the model only tracks server-level queueing; it doesn't capture network latency, downstream dependencies, or multi-tier system effects.
+- **Single-resource bottleneck** — the model only tracks server-level queueing but it doesn't capture network latency, downstream dependencies, or multi-tier system effects.
+
+---
+
+## Disclaimer
+
+This project was aimed at understanding queueing theory with an introduction to system design concepts.
